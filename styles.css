@@ -1,0 +1,84 @@
+/* Base Styles ----------------*/
+
+body {
+  color: #878787;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: white;
+  margin-bottom: 0;
+}
+
+h2 {
+}
+
+h3 {
+}
+
+nav ul {
+  list-style-type: none;
+}
+li {
+  float: left;
+  padding-left: 20px;
+}
+
+/* Pseudo-Classes -----------------*/
+
+a:link {
+  color: lightblue;
+  text-decoration: none;
+}
+
+a:visited {
+  color: lightcoral;
+}
+
+a:hover {
+  color: lightseagreen;
+}
+
+a:active {
+  color: blue;
+}
+
+/* Main Styles -----------------*/
+
+.main-header {
+  background-color: darkslateblue;
+  background-size: cover;
+}
+
+.header-title {
+  font-size: 25px;
+  margin-top: 5px;
+}
+
+/* Layout Styles -----------------*/
+
+#about {
+  padding-top: 30px;
+  border-top: 2px solid #878787;
+}
+
+#projects {
+  border-top: 2px solid #878787;
+  padding-bottom: 30px;
+}
+
+#contact {
+  border-top: 2px solid #878787;
+}
+
+/* Floated Columns -----------------*/
+
+/* Float Clearfix ------------------ */
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Media Queries -----------------*/
