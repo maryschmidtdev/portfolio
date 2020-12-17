@@ -16,12 +16,25 @@ h2 {
 h3 {
 }
 
-nav ul {
-  list-style-type: none;
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 20em;
+  float: right;
 }
-li {
-  float: left;
-  padding-left: 20px;
+
+nav a {
+  padding: 10px;
+}
+
+main {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+footer {
+  margin: 2em;
 }
 
 /* Pseudo-Classes -----------------*/
@@ -48,6 +61,7 @@ a:active {
 .main-header {
   background-color: darkslateblue;
   background-size: cover;
+  padding: 2em;
 }
 
 .header-title {
@@ -59,16 +73,15 @@ a:active {
 
 #about {
   padding-top: 30px;
-  border-top: 2px solid #878787;
 }
 
 #projects {
   border-top: 2px solid #878787;
-  padding-bottom: 30px;
 }
 
 #contact {
   border-top: 2px solid #878787;
+  border-bottom: 2px solid #878787;
 }
 
 /* Floated Columns -----------------*/
