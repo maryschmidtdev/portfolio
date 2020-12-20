@@ -16,16 +16,13 @@ h2 {
 h3 {
 }
 
-nav {
+nav ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  width: 20em;
   float: right;
-}
-
-nav a {
-  padding: 10px;
+  justify-content: space-between;
+  margin: auto;
+  width: 22em;
 }
 
 main {
@@ -61,11 +58,12 @@ a:active {
 .main-header {
   background-color: darkslateblue;
   background-size: cover;
-  padding: 2em;
+  padding: 2em 2em 3em 2em;
 }
 
 .header-title {
   font-size: 25px;
+  margin-bottom: 0;
   margin-top: 5px;
 }
 
@@ -80,8 +78,8 @@ a:active {
 }
 
 #contact {
-  border-top: 2px solid #878787;
   border-bottom: 2px solid #878787;
+  border-top: 2px solid #878787;
 }
 
 /* Floated Columns -----------------*/
@@ -89,9 +87,9 @@ a:active {
 /* Float Clearfix ------------------ */
 
 .group:after {
-  content: "";
-  display: table;
   clear: both;
+  content: '';
+  display: table;
 }
 
 /* Media Queries -----------------*/
