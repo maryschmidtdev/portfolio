@@ -4,12 +4,16 @@ body {
   color: #878787;
   font-family: Poppins, Arial, Helvetica, sans-serif;
   margin: 0;
+  background-color: #f4f0f5;
 }
 
 h1 {
-  color: white;
+  color: #878787;
+  margin-top: 0;
   margin-bottom: 0;
   letter-spacing: 2px;
+  font-size: 3rem;
+  text-shadow: 1px 1px rgb(151, 176, 202);
 }
 
 nav ul {
@@ -21,19 +25,19 @@ nav ul {
   width: 100%;
 }
 
-main {
+/* main {
   margin-left: 1em;
   margin-right: 1em;
-}
+} */
 
 footer {
-  margin: 2em;
+  margin: 1em;
 }
 
 /* Pseudo-Classes -----------------*/
 
 a:link {
-  color: white;
+  color: #878787;
   text-decoration: none;
 }
 
@@ -52,31 +56,37 @@ a:active {
 /* Main Styles -----------------*/
 
 .main-header {
-  background-color: darkslateblue;
-  background-size: cover;
   padding: 1em 1em 3em 1em;
-  background-image: linear-gradient(darkslateblue, white);
-}
-
-.header-title {
-  font-size: 25px;
-  margin-bottom: 0;
-  margin-top: 5px;
 }
 
 /* Layout Styles -----------------*/
 
+#intro {
+  font-size: 2rem;
+  background: #af94b8;
+  margin-top 0;
+  border: 0;
+  color: white;
+}
+
+#intro p {
+  margin: 1em;
+}
+
 #about {
-  padding-top: 30px;
+  padding-top: 0;
+  margin: 1em;
 }
 
 #projects {
   border-top: 2px solid #878787;
+  margin: 1em;
 }
 
 #contact {
   border-bottom: 2px solid #878787;
   border-top: 2px solid #878787;
+  margin: 1em;
 }
 
 .icon {
@@ -99,6 +109,9 @@ a:active {
 @media screen and (min-width: 480px) {
   .main-header {
     padding: 2em 2em 3em 2em;
+  }
+  h1 {
+    font-size: 5rem;
   }
   main {
     margin-left: 2em;
