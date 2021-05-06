@@ -4,15 +4,16 @@ body {
   color: #878787;
   font-family: Poppins, Arial, Helvetica, sans-serif;
   margin: 0;
-  background-color: #f4f0f5;
+}
+header {
+  background-color: #ccccff;
 }
 
 h1 {
   color: #878787;
-  margin-top: 0;
   margin-bottom: 0;
-  /* letter-spacing: 2px;
-  font-size: 3em; */
+  letter-spacing: 2px;
+  font-size: 3em;
   text-shadow: 1px 1px rgb(151, 176, 202);
 }
 
@@ -57,14 +58,17 @@ a:active {
 /* Layout Styles -----------------*/
 
 #intro {
-  /* font-size: 2em; */
-  margin-top: 0;
-  border: 4px double #af94b8;
+  padding-top: 1rem;
+  width: 100%;
   color: #878787;
+  background-color: #f4f0f5;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
 }
-
 #intro h2 {
-  margin: 1em;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 #about {
@@ -75,6 +79,7 @@ a:active {
 #projects {
   border-top: 2px solid #878787;
   margin: 1em;
+  background-color: aquamarine;
 }
 
 #contact {
@@ -153,6 +158,7 @@ button {
     flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
+    float: right;
   }
   nav {
     width: 20em;
@@ -169,5 +175,11 @@ button {
   }
   .about-aside-content {
     flex: 50%;
+  }
+  #intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
