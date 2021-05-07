@@ -6,15 +6,15 @@ body {
   margin: 0;
 }
 header {
-  background-color: #ccccff;
+  background-color: #926aa6;
 }
 
 h1 {
-  color: #878787;
+  color: white;
   margin-bottom: 0;
   letter-spacing: 2px;
   font-size: 3em;
-  text-shadow: 1px 1px rgb(151, 176, 202);
+  text-shadow: 1px 1px rgb(0, 0, 0);
 }
 
 nav ul {
@@ -33,7 +33,7 @@ footer {
 /* Pseudo-Classes -----------------*/
 
 a:link {
-  color: #878787;
+  color: white;
   text-decoration: none;
 }
 
@@ -61,16 +61,20 @@ a:active {
   padding-top: 1rem;
   width: 100%;
   color: #878787;
-  background-color: #f4f0f5;
+  background-color: #a0daa9;
   display: flex;
   flex-direction: column;
   justify-items: center;
+  margin: 0;
 }
 #intro h2 {
   padding-left: 2rem;
   padding-right: 2rem;
 }
-
+.profile-pic {
+  border: rgb(0, 0, 0) solid 2px;
+  align-items: center;
+}
 #about {
   padding-top: 0;
   margin: 1em;
@@ -79,7 +83,7 @@ a:active {
 #projects {
   border-top: 2px solid #878787;
   margin: 1em;
-  background-color: aquamarine;
+  background-color: #e9897e;
 }
 
 #contact {
@@ -145,6 +149,10 @@ button {
 }
 
 @media screen and (min-width: 650px) {
+  h1 {
+    font-size: 3rem;
+  }
+
   input {
     width: 50%;
   }
@@ -181,5 +189,6 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 20rem;
   }
 }
