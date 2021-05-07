@@ -24,8 +24,11 @@ nav ul {
   flex-direction: row;
   float: right;
   justify-content: space-between;
-  margin: auto;
   width: 100%;
+}
+ul {
+  margin: 0;
+  padding-bottom: 1rem;
 }
 
 footer {
@@ -92,6 +95,7 @@ a:active {
   padding-left: 1rem;
   padding-right: 1rem;
   background-color: #e9897e;
+  color: white;
 }
 
 #contact {
@@ -149,7 +153,7 @@ button {
 /* Media Queries -----------------*/
 @media screen and (min-width: 480px) {
   .main-header {
-    padding: 2em 2em 3em 2em;
+    padding: 1em 2em 3em 2em;
   }
 }
 
