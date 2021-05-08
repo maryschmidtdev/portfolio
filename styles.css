@@ -185,26 +185,25 @@ button {
     flex: 50%;
   }
 
-  #project {
+  #projects {
     display: flex;
     justify-content: center;
   }
-  #marianne-project {
+  #project-container {
     display: flex;
     max-width: 50rem;
     width: 100%;
+    margin-top: 4rem;
     margin-bottom: 2rem;
     justify-content: center;
   }
-  #marianne-project a {
-    padding-right: 1rem;
-  }
-  #marianne-project ul {
-    padding-left: 1rem;
-  }
-  /* .about-aside-content {
+
+  #project-text {
     flex: 50%;
-  } */
+  }
+  #project-image {
+    flex: 50%;
+  }
 }
 @media screen and (min-width: 1224px) {
   .nav-div {
@@ -217,18 +216,7 @@ button {
   nav {
     width: 20em;
   }
-  /* .about-aside {
-    display: flex;
-  }
-  .about-aside p:nth-child(1) {
-    padding-right: 1rem;
-  }
-  .about-aside p:nth-child(2) {
-    padding-left: 1rem;
-  }
-  .about-aside-content {
-    flex: 50%;
-  } */
+
   #intro {
     display: flex;
     flex-direction: column;
